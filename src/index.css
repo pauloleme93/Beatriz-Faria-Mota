@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-brand-green: #ffde15;
-  --color-brand-green-dark: #c41d6d;
-  --color-brand-yellow: #ffde15;
+  --color-brand-green: #40916c;
+  --color-brand-green-dark: #1b4332;
+  --color-brand-yellow: #b1d567;
   --color-brand-white: #ffffff;
   --color-surface: #f4f5f0;
   --color-text-dark: #333333;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-border-light: #f3f4f6;
+  --color-text-muted: #4b5563;
+  --color-text-light: #6b7280;
   
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-display: "Playfair Display", ui-serif, Georgia, serif;
 }
 
 body {
